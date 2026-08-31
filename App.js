@@ -5,24 +5,16 @@ import * as Location from 'expo-location';
 
 const CIUDADES_PRUEBA = [
   { nombre: 'Local (GPS)', lat: null, lon: null },
-  // Base McMurdo
-  { nombre: 'Antártida', lat: -77.8463, lon: 166.6682 },
-  // EE.UU: El lugar más caluroso del mundo. 
-  { nombre: 'Valle de la Muerte', lat: 36.4500, lon: -116.8721 },
-  // India: El lugar más lluvioso del planeta (Monzones). 
-  { nombre: 'Cherrapunji', lat: 25.2702, lon: 91.7323 },
-  // Venezuela: Capital mundial de los relámpagos. 
-  { nombre: 'Maracaibo', lat: 9.7457, lon: -71.5587 },
-  // China: El mágico "Mar de Nubes".
-  { nombre: 'Huangshan', lat: 30.1265, lon: 118.1733 }, 
-  // Tórshavn: Uno de los lugares más nublados y oscuros del mundo.
-  { nombre: 'Islas Feroe', lat: 62.0014, lon: -6.7662 }, 
-  // Nepal: Altitud extrema. 
-  { nombre: 'Everest', lat: 27.9881, lon: 86.9250 },
-  // Calidad de Aire Peligrosa 
-  { nombre: 'Nueva Delhi', lat: 28.6139, lon: 77.2090 },
-  // Calidad de Aire Excelente
-  { nombre: 'Reikiavik', lat: 64.1466, lon: -21.9426 },
+  { nombre: 'Tokio', lat: 35.6762, lon: 139.6503 },
+  { nombre: 'Nueva York', lat: 40.7128, lon: -74.0060 },
+  { nombre: 'Londres', lat: 51.5074, lon: -0.1278 },
+  { nombre: 'París', lat: 48.8566, lon: 2.3522 },
+  { nombre: 'Pekín', lat: 39.9042, lon: 116.4074 },
+  { nombre: 'El Cairo', lat: 30.0444, lon: 31.2357 },
+  { nombre: 'Sídney', lat: -33.8688, lon: 151.2093 },
+  { nombre: 'Río de Janeiro', lat: -22.9068, lon: -43.1729 },
+  { nombre: 'Riad', lat: 24.7136, lon: 46.6753 },
+  { nombre: 'Ciudad de México', lat: 19.4326, lon: -99.1332 },
 ];
 
 export default function App() {
